@@ -1,0 +1,7 @@
+About South:
+
+A weird thing happens with south when installing using pip. Even tough it apparently get the latest version which supports python 3, it actually downloads an older version that generates syntax error, you must install using the follwoing command.
+
+pip install south==dev
+
+This might change in the future.
